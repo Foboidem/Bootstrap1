@@ -11,10 +11,11 @@
 
 </head>
     <body>
+        <div class="jumbotron">
         <h1 class="display-1">Bootstrap Tutorial</h1>
         <h3 class="text-uppercase">Typography, Tables and Images</h3>
         <h5 class="font-italic">Be sure to include the Bootstrap links in the head tags</h5>
-
+        </div>
         <h2 class="display-4">Typography</h2>
         <p class="lead">Typography deals with how text is formatted. After we add the bootstrap links, you will see a 
         change in the way this text is formatted</p>
@@ -32,46 +33,56 @@
                     
                 </tr>
             </thread>
-             <tr>
+        <tr>
                 
-            <td>
-                Susie
-                    
-            </td>
-            <td>
-                Shellfish
-            </td>
-            <td>
-                19
-            </td>
+            <td>Susie</td>
+            <td>Shellfish</td>
+            <td>19</td>     
+            
         </tr>
         <tr>
            
-            <td>
-                Johnny
-            </td>
-            <td>
-                Blaze
-            </td>
-            <td>
-                14
-            </td>
+            <td>Johnny</td>  
+            <td>Blaze</td>     
+             <td> 14</td>
+               
+         
         </tr>
 
         <tr>
-        
-                <td>
-                    Miguel
-                </td>
-                <td>
-                    robins
-                </td>
-                <td>
-                    25
-                </td>
-            </tr>
+                <td>Miguel</td>
+                <td>Robins</td>
+                <td>25</td>
+        </tr>
+
         </table>
-      <p class="lead-bg-primary">Contextual classes are color schemes that that are associated in </p>
-        
+      <p class="lead-bg-primary">Contextual classes are color schemes that that are associated with diffrent statuses like "DANGER" or "SUCCESS" 
+         there are 9 diffrent contextual classes. You can fin them  on this website. </p>
+          <div class="break"></div>
+          <h2 class="display-4">IMAGES</h2>
+          <p>Bootstrap allows for diffrent formating of images, including rounded corners, thumbnails and alignments.</p>
+          <table class="table table-bordered">
+              <tr>
+                  <td><img class="rounded" width=100% height=auto src="https://images.template.net/wp-content/uploads/2016/04/27052229/Attractive-Nature-Wallpaper-for-Download.jpg"></td>
+
+                    <td><img class="rounded-circle" width=100% height=auto src="https://images.template.net/wp-content/uploads/2016/04/27052229/Attractive-Nature-Wallpaper-for-Download.jpg"></td>
+
+                        <td><img class="img-thimbnail" width=100% height=auto src="https://images.template.net/wp-content/uploads/2016/04/27052229/Attractive-Nature-Wallpaper-for-Download.jpg"></td>
+              </tr>
+          </table>
+        <P>We can also move images to the left or right using <kbd> float-left </kbd> and <kbd>float-right</kbd> classes </P>
+             
+      
+        <td><img class="rounded-circle float-left" width=100% height=auto src="https://images.template.net/wp-content/uploads/2016/04/27052229/Attractive-Nature-Wallpaper-for-Download.jpg"></td>
+
+              <hr>
+            <td><img class="rounded-circle float-right" width=100% height=auto src="https://images.template.net/wp-content/uploads/2016/04/27052229/Attractive-Nature-Wallpaper-for-Download.jpg"></td>
+              </hr>
+                <td><img class="rounded-circle mx-auto d-block" width=100% height=auto src="https://images.template.net/wp-content/uploads/2016/04/27052229/Attractive-Nature-Wallpaper-for-Download.jpg"></td>
+
+
+                <h2 class="display-4">JUMBOTRON</h2>
+                <p>Jumbotron is a class which accents text by adding a large background and centering the text. for an example, see the header of this page.</p>
+                <p>The colors of the jumbotron can be change by usig the background-color</p>
     </body>
 </html>
